@@ -46,8 +46,8 @@ then it will abort. In this case, install the package before running the script 
   If the script does not find these files in the working directory, it will call the 
   function `getfiles(files)` which is saved at the end inside the run_analysis.R file. The 
   function getfiles() will download the zipped data folder from
-  <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip">here</a>
-  , unzip it, and copy the relevant files into the working directory, then remove the 
+  <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip">here</a>,
+   unzip it, and copy the relevant files into the working directory, then remove the 
   zipped and unzipped folders again. Note that this function has only been tested on Mac 
   OS X system and if it does not work, please download the data files manually and save 
   them in the working directory.
@@ -69,8 +69,8 @@ in their names (see CodeBook.md for rationale) - if want to include other variab
 to change line 31:  
 `varindex <- which(grepl("mean\\(\\)", features) | grepl("std\\(\\)", features))`   
 &rarr; gets the corresponding names of the variables to include and replaces the "-" with 
-"." and removes the "()" from these names
-&rarr; some of the variable names have "Body" twice in their name, removes one of the "Body"
+"." and removes the "()" from these names  
+&rarr; some of the variable names have "Body" twice in their name, removes the double "Body"
 
 4. Reads in the activity labels from "activity_labels.txt"
 

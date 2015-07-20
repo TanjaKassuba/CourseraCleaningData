@@ -16,9 +16,8 @@ target=_blank>http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+
 The data was downloaded here:
 
 * <a href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" 
-k>https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip</a>
+k>https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip</a>  
 
----  
 <sub>Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. 
 A Public Domain Dataset for Human Activity Recognition Using Smartphones. 
 21th European Symposium on Artificial Neural Networks, Computational Intelligence and 
