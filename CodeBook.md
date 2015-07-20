@@ -48,7 +48,7 @@ low-pass filter. Since the gravitational force is assumed to have only low frequ
 components, a 0.3 Hz cutoff frequency used. The resulting variables are: `tBodyAcc-XYZ`, 
 `tGravityAcc-XYZ`, and `tBodyGyro-XYZ` (&rarr; **9 measurements**, one for each X, Y, and Z).
 
-Next, to obtain **Jerk** signals, the body linear acceleration (tBodyAcc-XYZ) and angular 
+Next, to obtain **jerk** signals, the body linear acceleration (tBodyAcc-XYZ) and angular 
 velocity (tBodyGyro-XYZ) were derived in time: `tBodyAccJerk-XYZ` and `tBodyGyroJerk-XYZ` 
 (&rarr; **6 measurements**, one for each X, Y, and Z).
 
